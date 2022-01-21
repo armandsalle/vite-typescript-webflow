@@ -5,6 +5,10 @@ This is a basic setup with [ViteJs](https://vitejs.dev/) and [Typescript](https:
 
 I'm using [Netlify](https://www.netlify.com/) to build and host my code because it's easy to use, free, and has serverless functions out of the box. Feel free to use your favorite CDN.
 
+## Live demo
+
+You can find a simple example of a Webflow site using this setup [here](https://vite-typescript.webflow.io/). The code is hosted on Netlify [here](https://vite-typescript-webflow.netlify.app/main.js). If you want to see the Webflow preview, it's [here](https://preview.webflow.com/preview/vite-typescript?utm_medium=preview_link&utm_source=designer&utm_content=vite-typescript&preview=20fd1e1f69661819ee0812a9740cbdd3&workflow=preview) 👍
+
 ## How to use with Webflow
 
 ⚠️ if you are using Brave as a web browser or an ad blocker, you will need to disable it on your pre-production Webflow live site. Else it can block the fetching of the js files.
@@ -20,7 +24,7 @@ But if you only code and don't have access to the project, you can use this code
 
 ```html
 <script>
-  ;(function () {
+  (function () {
     const LOCALHOST_URL = [
       'http://localhost:3000/@vite/client',
       'http://localhost:3000/src/main.ts',
